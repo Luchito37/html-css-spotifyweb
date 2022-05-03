@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.mega-container{
+    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.big-contain{
+    display: flex;
+    flex-grow: 2;
+    width: 100%;
+    background-color: brown;
+}
+
+.small-contain{
+    flex-grow: 0.5;
+    flex-shrink: 0;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.left-contain{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    min-width: 255px;
+}
+
+.right-contain{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-grow: 4;
+}
+
+.lg-contain{
+    background-color: blue;
+}
+
+.sm-contain{
+    background-color: aquamarine;
+}
+
+.logo-contain{
+    background-color: rgb(0, 0, 0);
+    flex-grow: 1;
+}
+
+.search-contain{
+    background-color: rgb(244, 255, 240);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-items{
+    border: solid 1px black;
+    flex-grow: 1 ;
+    background-color: rgb(242, 165, 10);
+}
+
+.sm-scroll-contain{
+    background-color: rgb(205, 103, 103);
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.craft-a-playlist{
+    background-color: rgb(97, 123, 142);
+    flex-grow: 1;
+}
+
+.scroll-items{
+    background-color: rgb(7, 27, 46);
+    flex-grow: 2;
+}
+
+.footer-contain{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    gap: 10px;
+}
+
+.footer-lg-section{
+    flex-grow: 2;
+    background-color: aliceblue;
+}
+.footer-section{
+    flex-grow: 1;
+    background-color: aliceblue;
+    flex-shrink: 0;
+    min-width: 200px;
+}
