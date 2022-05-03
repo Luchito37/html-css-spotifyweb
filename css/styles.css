@@ -3,6 +3,13 @@
     padding: 0%;
     box-sizing: border-box;
 }
+/*-------STILI BASE-------*/
+a{
+    text-decoration: none;
+    color: white;
+}
+/*-------STILI BASE-------*/
+
 
 .mega-container{
     margin: 0 0;
@@ -31,6 +38,7 @@
     flex-direction: column;
     flex-shrink: 0;
     min-width: 255px;
+    padding: 10px 15px;
 }
 
 .right-contain{
@@ -44,24 +52,41 @@
 }
 
 .sm-contain{
-    background-color: aquamarine;
+    background-color: rgb(13, 10, 27);
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 0;
+    padding: 20px;
+}
+
+.button-right{
+    padding: 5px 20px;
+    border: solid 2px white;
+    border-radius: 20px;
 }
 
 .logo-contain{
     background-color: rgb(0, 0, 0);
-    flex-grow: 1;
+}
+
+.logo{
+    max-width: 150px;
+    padding: 6px 0;
 }
 
 .search-contain{
     background-color: rgb(244, 255, 240);
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
 
+.space{
+    padding-right: 10px;
+}
+
 .search-items{
     border: solid 1px black;
-    flex-grow: 1 ;
+    padding: 10px 0;
     background-color: rgb(242, 165, 10);
 }
 
@@ -75,13 +100,72 @@
 
 .craft-a-playlist{
     background-color: rgb(97, 123, 142);
-    flex-grow: 1;
+    padding: 10px 0;
+    color: white;
+}
+
+.more-song{
+    background: #8b8787;
+    padding: 5px;
+    margin-right: 10px;
 }
 
 .scroll-items{
     background-color: rgb(7, 27, 46);
-    flex-grow: 2;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
+
+.make-a-playlist{
+    padding: 10px 0;
+}
+
+.scroll-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-download{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    color: #625f5f;
+}
+
+.svg-download-icon{
+    max-width: 15px;
+    height: 15px;
+}
+
+.img-svg-download{
+    max-width: 15px;
+    height: 15px;
+}
+
+.section-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+
+.svg-profile-icon{
+    max-width: 30px;
+    max-height: 30px;
+    border: solid 1px white;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #9c8d8d;
+}
+
+.img-svg-profile{
+    max-width: 30px;
+    height: 30px;
+}
+
+
 
 .footer-contain{
     display: flex;
