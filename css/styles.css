@@ -105,15 +105,18 @@ a:hover{
     position: relative;
 }
 
-
+.recently-img-contain:hover .play-hover-bigger{
+    display: flex;
+    justify-content: center;
+}
 
 .play-hover-bigger{
-    font-size: 200px;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
     background-color: #8080808f;
-    padding: 22px;
+    padding: 15px;
+    text-align: center;
+    display: none;
 }
 
 .recently-img-contain-duo{
