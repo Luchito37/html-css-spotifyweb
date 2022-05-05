@@ -11,6 +11,10 @@ a{
     text-decoration: none;
     color: white;
 }
+
+a:hover{
+    color: white;
+}
 /*-------STILI BASE-------*/
 
 
@@ -125,6 +129,12 @@ a{
     padding: 5px 20px;
     border: solid 2px white;
     border-radius: 20px;
+    transition: width 1s, height 1s, margin 1s;
+}
+
+.button-right:hover{
+    padding: 15px 25px;
+    font-size: 15px;
 }
 
 .logo-contain{
@@ -140,6 +150,14 @@ a{
     background-color: rgb(244, 255, 240);
     display: flex;
     flex-direction: column;
+    color: white;
+}
+
+.under-logo{
+    color: #9e9e9e;
+}
+
+.under-logo:hover{
     color: white;
 }
 
@@ -162,14 +180,27 @@ a{
 
 }
 
+
 .craft-a-playlist{
     background-color: rgb(0, 0, 0);
     padding: 10px 0;
     color: #9e9e9e;
 }
 
+.more-white-playlist:hover{
+    color: white;
+}
+
+
 .more-song{
     background: #8b8787;
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+    color: black;
+}
+
+.more-song:hover{
+    background: #ffffff;
     padding: 10px;
     margin: 10px 10px 10px 0;
     color: black;
@@ -244,6 +275,7 @@ a{
     justify-content: space-between;
     padding: 10px 20px;
     gap: 10px;
+    min-height: 91.5px;
 }
 
 .footer-lg-section{
@@ -252,8 +284,8 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 23px;
     gap: 8px;
+    padding: 5px;
     position: relative;
 }
 .footer-section{
@@ -280,8 +312,21 @@ a{
     color: white;
 }
 
+.brano-nome{
+    color: #9e9e9e;
+    font-size: smaller;
+}
+.brano-nome:hover{
+    text-decoration: underline;
+    color: white;
+}
+
 .footer-like{
     word-spacing: 10px;
+}
+
+.hover-like{
+    color: #9e9e9e;
 }
 
 .footer-menu{
@@ -297,7 +342,13 @@ a{
 }
 
 .big-icon{
-    font-size: 40px;
+    font-size: 30px;
+    color: #dddbdb;
+}
+
+.big-icon:hover{
+    font-size: 35px;
+    color: #ffffff;
 }
 
 .contain-bar-time{
