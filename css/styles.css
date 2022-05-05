@@ -108,6 +108,10 @@ a:hover{
     width: 100%;
 }
 
+.recently-img-circle{
+    border-radius: 50%;
+}
+
 .recently-text-song{
     text-align: center;
     padding: 15px 0px;
