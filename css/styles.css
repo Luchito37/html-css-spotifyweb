@@ -102,6 +102,18 @@ a:hover{
     flex-direction: column;
     align-items: center;
     flex-basis: calc(100% / 6 - 9px);
+    position: relative;
+}
+
+
+
+.play-hover-bigger{
+    font-size: 200px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #8080808f;
+    padding: 22px;
 }
 
 .recently-img-contain-duo{
