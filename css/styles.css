@@ -387,4 +387,16 @@ a:hover{
     background: white;
     border-style: none;
     border-radius: 5px;
+    position: relative;
+    text-align: right;
+}
+
+.time-brano:hover{
+    background-color: greenyellow;
+}
+
+.pointer-bar{
+    position: absolute;
+    top: -5px;
+    color: white;
 }
