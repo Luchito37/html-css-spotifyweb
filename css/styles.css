@@ -461,4 +461,15 @@ a:hover{
     .logo-none{
         display: inline-block;
     }
+    .footer-section{
+        min-width: 170px;
+        gap: 15px;
+        position: relative;
+    }
+    .footer-menu{
+        font-size: 12px;
+    }
+    .bg-time-brano{
+        width: 55px ;
+    }
 }
